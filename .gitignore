@@ -1,0 +1,15 @@
+
+// Private files
+.htaccess
+robots.txt
+sitemap.xml
+
+
+
+// Created by gulp
+dist/
+
+// Vendor etc
+node_modules/
+nbproject/
+vendor/
