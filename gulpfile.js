@@ -19,7 +19,7 @@ var gulp = require('gulp'),
 
 // Concatenate JS Files
 gulp.task('concatScripts', function() {
-  return gulp.src(['assets/js/jquery-2-2.3.min.js', 'assets/js/scripts.js'])
+  return gulp.src(['assets/js/jquery-2.2.3.min.js', 'assets/js/scripts.js'])
       .pipe(maps.init())
       .pipe(concat('app.js'))
       .pipe(maps.write('./'))
@@ -71,7 +71,7 @@ gulp.task('minifyStyles', ['compileSass'], function() {
 // Start server and watch files
 gulp.task('serve', function() {
   browserSync.init({
-    proxy : 'http://localhost/jaymesyoung/'
+    proxy : 'http://localhost/?/'
   });
   
   gulp.watch('assets/scss/**/*.scss', ['watchSass']);

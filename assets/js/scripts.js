@@ -1,5 +1,5 @@
 /* 
-File Name: ascripts.js
+File Name: scripts.js
 Date: 15 Mar 16
 Programmer: Jaymes Young-Liebgott
  */

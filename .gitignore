@@ -1,15 +1,21 @@
 
-// Private files
+# Ignore Sensitive data
 .htaccess
 robots.txt
 sitemap.xml
+/*.html
 
+# Ignore node modules
+node_modules/
 
+# Ignore vendor
+vendor/
 
-// Created by gulp
+# Ignore netbeans
+nbproject/
+
+# Ignore dist folder created by gulp
 dist/
 
-// Vendor etc
-node_modules/
-nbproject/
-vendor/
+# Ignore CSS folder
+assets/css
